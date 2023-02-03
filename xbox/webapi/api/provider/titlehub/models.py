@@ -84,7 +84,7 @@ class Title(CamelCaseModel):
     name: str
     type: str
     devices: List[str]
-    display_image: str
+    display_image: Optional[str]
     media_item_type: str
     modern_title_id: Optional[str]
     is_bundle: bool
